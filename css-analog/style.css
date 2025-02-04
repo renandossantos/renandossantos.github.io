@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(188, 188, 188);
+  min-width: 800px;
+  padding: 50px;
+}
+
+main {
+  width: 80vw;
+  background-color: white;
+  margin: 0 auto;
+  border: 5px double rgb(55, 54, 54);
+  margin: 20px auto;
+  border-radius: 18px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  width: 15%;
+  margin: 30px auto;
+  /* ADICIONAR FONTES DO GOOGLE FONTS */
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  width: 70%;
+  margin: 0 auto;
+  height: 50px;
+  margin: 20px auto 40px;
+}
+
+ul {
+  width: 100%;
+  margin: 10px auto;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+li {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  width: 180px;
+  height: 40px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px auto;
+
+  cursor: pointer;
+}
+
+.images {
+  width: 70%;
+  height: 15em;
+  margin: 0px auto;
+}
+
+img {
+  width: 30%;
+  margin: -2px;
+}
+
+img:hover {
+  border: 2px solid black;
+  box-shadow: 3px 3px rgb(149, 146, 146);
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+}
+
+/* FORMATACAO DE LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+li:hover {
+  background-color: black;
+  border: none;
+  color: brown;
+  border-radius: 5px;
+}
+
+strong {
+  font-family: "PT Sans", serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+hr {
+  background-color: black;
+  width: 70%;
+  margin: 0 auto;
+  height: 2px;
+}
+
+.alert {
+  font-size: 100px;
+  font-family: monospace;
+  color: rgb(255, 0, 0);
+}
