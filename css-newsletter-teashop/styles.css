@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  /* border: 3px solid orangered; somente para visualização  */
+
+  background-color: rgb(236, 233, 233);
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* ------------- HEADER ----------------- */
+header img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* ------------- SECTION - IMAGES ----------------- */
+/* .section-images {
+   border: 3px solid green; somente para visulização
+} */
+
+section h1 {
+  font-size: 60px;
+  width: 35vw;
+  margin: 10px auto;
+
+  /* border: 1px solid green; somente para visualização */
+}
+
+.images {
+  /* border: 2px solid blue;  somente para visualização  */
+
+  height: 600px;
+  vertical-align: top;
+  width: 30%;
+  display: inline-block;
+  padding: 25px;
+}
+
+.images img {
+  /* border: 2px solid black; somente para visualização */
+
+  margin: 10px;
+}
+
+.images p {
+  /* border: 2px solid pink; somente para visualização */
+
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+
+  margin: 10px;
+}
+
+.llevame {
+  background-color: black;
+
+  color: white;
+
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+/* ------------- SECTION - HAPPY PUMPKIN ----------------- */
+
+hr {
+  /* background-color: rgb(227, 227, 227); */
+  margin: 30px auto;
+  width: 95%;
+}
+
+.happy-pumpkin h2 {
+  font-size: 40px;
+  width: 35vw;
+  margin: 10px auto;
+
+  /* border: 1px solid green; somente para visualização */
+}
+.happy-pumpkin p {
+  font-size: 16px;
+  width: 35vw;
+  margin: 10px auto;
+}
+
+/* ------------- SECTION - ICONES ----------------- */
+
+.icones {
+  /* border: 2px solid orange; somente para visualização */
+  width: 50vw;
+  margin: 0 auto;
+
+  text-align: center;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.icone {
+  /* border: 1px solid blue; somente para visualização */
+
+  width: 20%;
+  min-height: 150px;
+  display: inline-block;
+  margin: 0 15px;
+  vertical-align: top;
+}
+
+/* ------------- FOOTER ----------------- */
+footer {
+  /* border: 2px solid green; somente para visualização */
+
+  min-height: 100px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 40px;
+
+  background-color: white;
+}
+
+footer a {
+  text-decoration: none;
+}
