@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(234, 234, 234);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  background-color: white;
+  width: 85%;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: fit-content;
+}
+
+header img {
+  width: 100%;
+}
+
+.inicio {
+  text-align: center;
+  margin: 0px;
+
+  height: fit-content;
+
+  /* border: 3px solid red; */
+}
+
+.inicio img {
+  width: 100%;
+}
+
+.text-red-center {
+  text-transform: uppercase;
+  color: red;
+  width: fit-content;
+
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: rgb(25, 196, 196);
+  /* font-size: 90px; */
+  font-size: 5em;
+  width: 900px;
+
+  /* border: 1px solid blue; */
+  margin: 20px auto;
+}
+
+p {
+  width: 900px;
+  font-size: 2em;
+  text-align: center;
+
+  /* border: 1px solid violet; */
+  margin: 20px auto;
+}
+.inscrever {
+  background-color: red; /* ARRUMAR OS TAMANHOS */
+  border: none;
+  border-radius: 30px;
+
+  width: fit-content;
+  padding: 15px;
+  margin: 40px auto;
+  text-align: center;
+
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* ----------------------- SORTEIOS -------------------- */
+
+.sorteio {
+  display: flex;
+  padding: 30px 200px;
+  height: fit-content;
+
+  background-color: white;
+  /* border: 3px solid black; */
+
+  align-items: center;
+  justify-content: space-between;
+}
+/* description >>>>>> image */
+
+.prize-description {
+  width: 40%;
+  text-align: left;
+  /* border: 1px solid red;  caixa da descrição */
+}
+.prize-description p {
+  /* Nao deixe + inscreva-se */
+  text-align: center;
+  width: 100%;
+  text-align: start;
+}
+
+.prize-description .text-red {
+  /* Rever a redundancia */
+  /* SORTEIO */
+  text-transform: uppercase;
+  color: red;
+
+  width: 500px;
+}
+
+.prize-description .inscrever {
+  margin: 0 0;
+}
+
+.prize-img {
+  width: 55%;
+  text-align: left;
+}
+
+.prize-img img {
+  /* IMAGEM DO CARRO */
+  height: 500px;
+
+  /*border: 1px solid blue;  caixa da imagem */
+}
+
+/* image >>>>>> description */
+/* .direita {
+  float: right;
+  background-color: aqua;
+}
+
+.prize-description .esquerda {
+  float: left;
+  text-align: start;
+} */
+
+.verde {
+  background-color: rgb(135, 252, 238);
+  background-image: url("folha1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding: 20px;
+}
+
+.black-strip {
+  background-color: rgb(55, 50, 50);
+  padding: 20px;
+  text-align: center;
+}
