@@ -26,6 +26,7 @@ header img {
 .inicio {
   text-align: center;
   margin: 0px;
+  background-color: rgba(245, 245, 245, 0.928);
 
   height: fit-content;
 
@@ -84,7 +85,7 @@ p {
 
 .sorteio {
   display: flex;
-  padding: 30px 200px;
+  padding: 20px 200px;
   height: fit-content;
 
   background-color: white;
@@ -98,13 +99,18 @@ p {
 .prize-description {
   width: 40%;
   text-align: left;
-  /* border: 1px solid red;  caixa da descrição */
+  /*border: 1px solid red;   caixa da descrição */
 }
 .prize-description p {
   /* Nao deixe + inscreva-se */
   text-align: center;
   width: 100%;
   text-align: start;
+}
+
+.subtitle {
+  font-size: 30px;
+  color: rgb(25, 196, 196);
 }
 
 .prize-description .text-red {
@@ -132,6 +138,10 @@ p {
   /*border: 1px solid blue;  caixa da imagem */
 }
 
+.bg-gray {
+  background-color: rgba(245, 245, 245, 0.928);
+}
+
 /* image >>>>>> description */
 /* .direita {
   float: right;
@@ -143,17 +153,73 @@ p {
   text-align: start;
 } */
 
-.verde {
+/* ----------------------- GREEN STRIP -------------------- */
+
+.green-strip {
   background-color: rgb(135, 252, 238);
-  background-image: url("folha1.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url("folha1.png"), url("folhadrt.png");
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
   text-align: center;
-  padding: 20px;
+  padding: 20px 20px 60px;
 }
 
+.green-strip h1 {
+  color: black;
+  font-size: 42px;
+  width: 40%;
+}
+
+.green-strip h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: -18px;
+}
+
+.green-strip p {
+  font-size: 24px;
+  font-weight: 200;
+  width: 40%;
+}
+
+/* ----------------------- BLACK STRIP -------------------- */
 .black-strip {
   background-color: rgb(55, 50, 50);
   padding: 20px;
   text-align: center;
+}
+
+/* ----------------------- FOOTER -------------------- */
+
+footer {
+  background-color: rgb(36, 35, 35);
+  color: lightgray;
+  font-size: 8px;
+
+  /* border: 4px solid green; */
+
+  padding: 30px;
+}
+
+footer p {
+  width: 75%;
+
+  /* border: 1px solid yellow; */
+  margin: 0 auto;
+}
+
+footer a {
+  text-decoration: underline;
+  color: lightgray;
+}
+
+footer a:hover {
+  background-color: lightgray;
+  color: black;
+  padding: 2px;
+}
+
+.p-middle {
+  margin: 20px auto;
 }
