@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(39, 37, 37);
+  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+  /* NOVA REGRA */
+  padding: 10px;
+}
+
+header {
+  height: 20vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: rgb(71, 69, 69);
+  padding: 5px;
+  gap: 5px;
+}
+
+section a {
+  text-decoration: none;
+  color: tomato;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 20vh;
+} 
+
+section {
+  background-color: rgb(71, 69, 69);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+section a {
+  text-decoration: none;
+  color: tomato;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center center;
+}
+
+.c2xr1 {
+  grid-column: span 2;
+}
+
+.c2xr2 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.c3xr1 {
+  grid-column: span 3;
+}
+
+.c3xr2 {
+  grid-column: span 3;
+  grid-row: span 2;
+}*/
+
+/* MEDIA QUERIES - Exercício RESPONSIVE WEB DESIGN */
+@media screen and (min-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 20vh;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1em;
+  }
+
+  header {
+    font-size: 1.5em;
+    text-shadow: 2px 1px 1px tomato;
+  }
+
+  /*   figure img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center center;
+  } */
+
+  .c2xr1 {
+    grid-column: span 2;
+  }
+
+  .c2xr2 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .c3xr1 {
+    grid-column: span 3;
+  }
+
+  .c3xr2 {
+    grid-column: span 3;
+    grid-row: span 2;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  header {
+    font-size: 1.5em;
+    text-shadow: 2px 1px 1px tomato;
+
+    & h1 {
+      padding: 50px 300px;
+      border: 5px dotted tomato;
+    }
+  }
+
+  section {
+    padding: 30px;
+
+    font-size: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 1em;
+
+    & h1 {
+      text-shadow: 2px 1px 1px tomato;
+    }
+  }
+}
