@@ -14,6 +14,7 @@ main {
   height: 100vh;
 
   display: flex;
+  align-items: center;
 
   flex-direction: column;
   gap: 20px;
@@ -48,14 +49,29 @@ h1 {
   font-size: 90px;
 }
 
+h2 {
+  display: flex;
+  font-family: monospace;
+  width: fit-content;
+  align-items: center;
+
+  font-size: 18px;
+  color: antiquewhite;
+}
+
 .links {
-  height: 500px;
+  width: 50%;
+  /* height: 60%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .links a {
   text-decoration: none;
   margin: 10px;
   display: flex;
-  width: 30%;
+  width: 60%;
 
   border: none;
   padding: 10px 15px;
