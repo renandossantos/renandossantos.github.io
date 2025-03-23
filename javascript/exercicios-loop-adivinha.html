@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JavaScript - Exercícios</title>
+  </head>
+
+  <body>
+    <h1>JS - Exercícios</h1>
+    <main>
+      <section id="output"></section>
+    </main>
+
+    <script>
+      /* 3-
+       Jogo do advinha
+       a) crie um número inteiro aleatório entre X e Y. Utilize o método Math.random() e Math.round()
+       b) pergunte ao utilizador para adivinhar o número
+       c) enquanto não acertar, devolva a informação se o número é maior ou menor
+       d) Se acertar... dizer o número e a quantidade de tentativas
+       */
+
+      let numeroAleatorio = Math.round(Math.random() * 9) + 1;
+
+      let tentativa;
+      let resposta = "";
+      let tentativas = 0;
+
+      while (tentativa !== numeroAleatorio) {
+        tentativa = Number(prompt("Digite um número entre 1 e 10"));
+        tentativas++;
+
+        if (tentativa === numeroAleatorio) {
+          resposta = `Você acertou! O número era ${numeroAleatorio}. Tentativas: ${tentativas}`;
+        } else if (tentativa > numeroAleatorio) {
+          resposta = "Tente um número menor na próxima!";
+        } else {
+          resposta = "Tente um número maior na próxima!";
+        }
+        alert(resposta);
+      }
+
+      // escrever dentro da section output
+      let output = document.getElementById("output");
+      output.innerHTML = resposta;
+    </script>
+  </body>
+</html>

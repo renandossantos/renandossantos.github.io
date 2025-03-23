@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JavaScript - Exercícios</title>
+  </head>
+
+  <body>
+    <h1>JS - Exercícios</h1>
+    <main>
+      <section id="output"></section>
+    </main>
+
+    <script>
+      /* b) apresenta a lista de números pares entre dois números inseridos */
+
+      // Pedir ao usuário para informar 2 números
+      let num1 = Number(prompt("Digite um número:"));
+      let num2 = Number(prompt("Digite um número maior:"));
+
+      //let menor = (num1 < num2) ? num1 : num2
+      //let maior = (num1 > num2) ? num1 : num2
+
+      pares = "";
+
+      // trocar num1 para menor
+      //trocar num2 para maior
+      while (num1 < num2) {
+        if (num1 % 2 == 0) {
+          pares += `${num1} <br/>`;
+        }
+        num1++; //menor++
+      }
+
+      // escrever dentro da section output
+      let output = document.getElementById("output");
+      output.innerHTML = pares;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JavaScript - Exercícios</title>
+  </head>
+
+  <body>
+    <h1>JS - Exercícios (Tabuada)</h1>
+    <main>
+      <section id="output"></section>
+    </main>
+
+    <script>
+      /* c) apresenta uma lista de números impares entre dois números inseridos por ordem descrente */
+
+      let num1 = Number(prompt("Digite um número:"));
+
+      let i = 1;
+      let tabuada = "";
+
+      for (i; i <= 10; i++) {
+        tabuada += `${num1} x ${i} = ${num1 * i}<br/>`;
+      }
+
+      // escrever dentro da section output
+      let output = document.getElementById("output");
+      output.innerHTML = tabuada;
+    </script>
+  </body>
+</html>

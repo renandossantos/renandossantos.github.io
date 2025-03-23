@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JavaScript - Exercícios</title>
+  </head>
+
+  <body>
+    <h1>JS - Exercícios</h1>
+    <main>
+      <section id="output"></section>
+    </main>
+
+    <script>
+      /* c) apresenta uma lista de números impares entre dois números inseridos por ordem descrente */
+
+      // Pedir ao usuário para informar 2 números
+      let num1 = Number(prompt("Digite um número:"));
+      let num2 = Number(prompt("Digite um número menor:"));
+
+      impares = "";
+
+      /* c) apresenta uma lista de números impares entre dois números inseridos por ordem descrente */
+      while (num1 > num2) {
+        if (num1 % 2 !== 0) {
+          impares += `${num1} <br/>`;
+        }
+        num1--;
+      }
+
+      // escrever dentro da section output
+      let output = document.getElementById("output");
+      output.innerHTML = `${impares} <br/>`;
+    </script>
+  </body>
+</html>
