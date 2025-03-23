@@ -24,3 +24,9 @@ main {
   border-radius: 12px;
   background-color: whitesmoke;
 }
+
+h2 {
+  text-align: center;
+  padding: 1em;
+  color: antiquewhite;
+}
