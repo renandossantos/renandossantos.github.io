@@ -19,7 +19,6 @@ for (let i = 0; i < books.length; i++) {
 
 
 <h2 class='author'>${book.author}</h2>
-<hr>
 <h3 class='status'>${book.alreadyRead ? "✅ Read" : "❌ Not Read"}</h3>
 
 `;
