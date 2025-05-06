@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../00-Conceitos/styles.css"> -->
+    <title>JavaScript - Intro
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    </link>
+</head>
+
+<body>
+    <h1>JS - CANVAS</h1>
+    <main>
+        <div id="controles">
+            <button id="playBtn"> Play </button>
+            <button class="levels" id="easy"> Easy </button>
+            <button class="levels" id="normal"> Normal </button>
+            <button class="levels" id="hard"> Hard </button>
+            <button id="menosBtn"> - </button>
+            <button id="maisBtn"> + </button>
+        </div>
+
+        <div id="canvas-container">
+            <canvas id="canvas" width="400" height="400"></canvas>
+
+            <div id="bang-message">BANG!</div>
+            <div id="fail-message">FAIL!</div>
+
+            <div id="gameOver">
+                <h2>Game Over</h2>
+                <button id="newGame">Novo Jogo</button>
+            </div>
+        </div>
+        <div id="score-life">
+            <p id="score">Score: <span></span> </p>
+            <p id="lives">Live: <span></span></p>
+        </div>
+    </main>
+
+    <script src="canvas.js" defer>
+    </script>
+</body>
+
+</html>
